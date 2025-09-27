@@ -8,7 +8,7 @@ on:
 
 jobs:
   push_to_registries:
-    name: Push Docker image to Docker Hub and GitHub Container Registry
+    '''name: Push Docker image to Docker Hub and GitHub Container Registry
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -63,4 +63,4 @@ jobs:
         with:
           subject-name: ghcr.io/${{ github.repository_owner }}/a-to-z-mlops
           subject-digest: ${{ steps.push.outputs.digest }}
-          push-to-registry: false
+          push-to-registry: false'''
