@@ -6,6 +6,7 @@ import os
 
 from pathlib import Path
 import sys
+import react
 from kaggle.api.kaggle_api_extended import KaggleApi
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
