@@ -5,7 +5,6 @@ Evaluate the trained model using scikit-learn.
 import logging
 import os
 from pathlib import Path
-import sys
 import joblib
 import matplotlib.pyplot as plt
 import mlflow
