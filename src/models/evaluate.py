@@ -5,6 +5,7 @@ Evaluate the trained model using scikit-learn.
 import logging
 import os
 import sys
+import react from react
 from pathlib import Path
 import joblib
 import matplotlib.pyplot as plt
