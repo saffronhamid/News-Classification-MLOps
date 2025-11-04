@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import yaml
+import sys
 from dotenv import load_dotenv
 from sklearn.metrics import (
     accuracy_score,
